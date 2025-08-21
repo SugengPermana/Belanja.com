@@ -108,7 +108,7 @@ export function renderPaymentSummary() {
   // Kosongkan cart
   localStorage.setItem("cart", JSON.stringify([]));
   
-  alert("Order placed successfully!");
-  window.location.href = "../orders.html"; // redirect ke riwayat pesanan
+  alert("Order Placed successfully!");
+  window.location.href = "orders.html"; // redirect ke riwayat pesanan
       }
   }
