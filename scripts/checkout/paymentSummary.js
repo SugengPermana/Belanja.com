@@ -109,6 +109,7 @@ export function renderPaymentSummary() {
   localStorage.setItem("cart", JSON.stringify([]));
   
   alert("Order Placed successfully!");
-  window.location.href = "orders.html"; // redirect ke riwayat pesanan
+  window.location.href = "/Belanja.com/orders.html";
+// redirect ke riwayat pesanan
       }
   }
